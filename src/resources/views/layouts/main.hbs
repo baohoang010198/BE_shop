@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{> head }}
+    <body class="animsition">
+        <div class="page-wrapper">
+            <!-- MENU SIDEBAR-->
+            {{>Menu}}
+            <!-- END MENU SIDEBAR-->
+
+            <!-- PAGE CONTAINER-->
+            <div class="page-container2">
+                <!-- HEADER DESKTOP-->
+                {{>header}}
+                {{>sidebar}}
+                <!-- END HEADER DESKTOP-->
+                <div class="main-content">
+                    <div class="section__content section__content--p30">
+                        <div class="container-fluid">
+                            {{{body}}}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        {{>script}}
+    </body>
+</html>
+<!-- end document-->
